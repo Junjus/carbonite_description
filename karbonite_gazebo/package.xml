@@ -1,0 +1,25 @@
+<package format="2">
+  <name>karbonite_gazebo</name>
+  <version>1.0.0</version>
+  <description>
+    <p>URDF Description package for carbonite</p>
+    <p>This package is used to simulate carbonite in gazebo</p>
+  </description>
+  <author>Junus Hirner</author>
+  <maintainer email="juhi16.intcod@web.de" />
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>roslaunch</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>joint_state_controller</depend>
+  <depend>controller_manager</depend>
+  <depend>ros_control</depend>
+  <depend>rviz</depend>
+  <depend>gazebo</depend>
+
+  <export>
+    <architecture_independent />
+  </export>
+</package>
